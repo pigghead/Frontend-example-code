@@ -1,0 +1,94 @@
+/*** Variable setting ***/
+:root {
+  --ff-primary: 'Lato', sans-serif;
+
+  --clr-highlight: #797979;
+}
+
+/*** General styles + typography ***/
+.header {
+  background: #c0c0c0;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--ff-primary);
+}
+
+.body {
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--ff-primary);
+}
+
+.feed {
+  font-family: var(--ff-primary);
+}
+
+.searchbar {
+  margin: 1em;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo:hover {
+  color: var(--clr-highlight);
+}
+
+/*** Profile card css ***/
+.ProfileCard {
+  display: block;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.ProfileCard__img {
+  /*max-width: 66%;*/
+  width: 170px;
+}
+
+.ProfileCard__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.ProfileCard__link:hover {
+  color: var(--clr-highlight);
+}
+
+.ProfileCard__name {
+  border-bottom: 1px solid black;
+}
+
+/*** Repo Feed css ***/
+.feed__repoList {
+  list-style: none;
+  padding: 0;
+  margin: 0 2.5em;
+}
+
+.feed__repoList li {
+  border-bottom: 1px solid black;
+}
+
+.feed__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.feed__link:hover {
+  color: var(--clr-highlight);
+}
+
+.feed__display {
+  display: flex;
+  max-width: 70%;
+}
+
+.feed__displayItem {
+  flex: 1;
+}
